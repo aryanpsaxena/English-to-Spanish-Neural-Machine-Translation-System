@@ -3,8 +3,6 @@
 **Course:** Foundations of Generative AI (ICT4403), Assignment 3
 **Student:** Aryan Saxena | **Reg. No.:** 220953552
 
-> Fill every `<...>` from your own run (`outputs/*.csv`). Delete this note before submitting.
-
 ## 1. Problem Statement and Objective
 Build English-to-Spanish translation systems with two encoder-decoder models (a Transformer trained from scratch, fine-tuned mT5) and two decoder-only models (LLaMA, Gemma), evaluate them on the same test set with BLEU, chrF, training time, inference time and parameter count, compare the architectures, and discuss responsible-AI concerns.
 
@@ -77,4 +75,3 @@ Automatic risk screening (`outputs/risk_screening.csv`) and targeted probes (`ou
 └── outputs/   (results_table.csv, adaptation_comparison.csv, temperature_analysis.csv,
                 risk_screening.csv, ethics_probes.csv, test_translations.csv, final_ranking.csv, *.png)
 ```
-
